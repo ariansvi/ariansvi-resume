@@ -1,0 +1,42 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: arinasvi-resume
+  labels:
+    app: arinasvi-resume
+spec:
+  gateways:
+  - arinasvi-resume
+  hosts:
+  - arinasvi-resume.local
+  - acme.com
+  http:
+  - name: primary
+    route:
+    - destination:
+        host: arinasvi-resume
+        port:
+          number: 80
+      weight: 100
+    - destination:
+        host: arinasvi-resume-canary
+        port:
+          number: 80
+      weight: 0
+
+---
+
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: arinasvi-resume
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+     - "*"

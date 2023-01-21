@@ -8,7 +8,7 @@ metadata:
 spec:
   project: staging
   source:
-    path: kustomize/overlays/staging
+    path: app/kustomize/overlays/staging
     repoURL: https://github.com/ariansvi/ariansvi-resume
     targetRevision: HEAD
     kustomize:

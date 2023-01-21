@@ -8,7 +8,7 @@ metadata:
 spec:
   project: production
   source:
-    path: kustomize/overlays/production
+    path: app/kustomize/overlays/production
     repoURL: https://github.com/ariansvi/ariansvi-resume
     targetRevision: HEAD
     kustomize:
