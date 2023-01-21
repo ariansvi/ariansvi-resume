@@ -1,0 +1,19 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: github-access
+  namespace: workflows
+spec:
+  encryptedData:
+    email: AQBW96B/dBqY+x9ydwMD8Nuu0eEF0+JsInD5fPFeZqhHnGcCsHMI7oYLa4VaoId/GDWiuTdND1zthcd0XrdUlFhWwsc9cLqLDic7Ut998w1IJMzFLXjAFWeK6dYp7QjiP599WM3+/9ZPYMhCO/o1oLUOy1N4D68nVtWZ2R/KH9PAMyiGhlV6ilPOIDPqa9GOYSmuBix42mhBk2rDWF5j2iJOQZMa46B5c5YFLK1Movk1zNS95H1CbWLvcsrr2B39636FdjFGTQGKr/AlJiN2wImdnTDtZEULHto3OivEQO/137ucG9pq3SGr/DGSn5vbn/ZS0Q863LN86od1nnEXQSzRZnV5Q0ZzQyba4WMdR00XHTJT+b+A2mRtqjsPX4sw4gubLsJCAT0=
+    token: AQCkKJuCtdgDkJ9lj0VLof4bY6sCSbCNZqZpaQm83GlaR1oBS9mWKmvBj95YJ0lLG0SOFtqrIq8Pk44p1Ze3pyXOY7XeVq9X6vLm0empvSHPnLYSp+YcJjX+7JYxCSzaNgQm2n1Zp/W9m6H/S/bVShOqT7cdjtk8kZ8QHkhJanngBA9nuLdaI4yJEKD6Mc5ayAXVwhMkR9nWk2mUedqxkzxG1pfJ04XOTAHQAwLyfdYOBIvVUt6WldCSfk9fpz+eBCFMsCVATNwi20jLFnnUhZLM8gyDsa4TVjuxATbbOHj4cowfqlaShPjEJv6a5u53+iuaM9uiu+1un5GiNNZnDxH+ofNuhX39LoK72EnVtaTb9nOu+6/c7muWaCUfFDPlBl8nnTwaqeQWJB2yN5Rd+ULrf1X4SzGv9js=
+    user: AQCVHsogMfN0PcOXZNJ2QdJPUybWxTDiPM9i7FgBEc0txCfMszty79Rj9yLCJo3bGy8vdWqxGgQ2tz+CNIELzQDTBWZFtcTrGMY/e10QapaGhaR3gNUmRoF8hIXDT8eTwM+lRWG5nYBIObJaSRCw1WsjhJ8nAcHrLGwFCnQZlUzLRzlY51qTpkgMHlT4FFoA62GaaQoEI7XGeEo4Op8EFoA7SMMQTcY1RdetvdDFUeH9JDikA9DAkVdMcekZg6R4jNOPT07g64cb+oNubMfiVB22LRwYR0t8IsggTQg4urEVGSpr9thuZiBnd6mZPydyrJlZP9PXzxzKjSXjNiTOGYGm0j+v/OiOCtmAn6Pc+QWqjezqy3MUIs9n
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: github-access
+      namespace: workflows
+    type: Opaque
+
