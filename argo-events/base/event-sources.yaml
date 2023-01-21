@@ -10,7 +10,7 @@ spec:
     - port: 12000
       targetPort: 12000
   github:
-    argo-combined-app:
+    ariansvi-resume:
       owner: ariansvi
       repository: ariansvi-resume
       webhook:
